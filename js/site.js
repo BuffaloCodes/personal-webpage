@@ -82,7 +82,7 @@
      Shown at the top of every page while the site is being finished.
      To remove it at launch, change SHOW_UPDATE_BANNER to false (or delete this block).
      A visitor who selects Dismiss will not see it again until they come back in a new browser session. */
-  var SHOW_UPDATE_BANNER = true;
+  var SHOW_UPDATE_BANNER = false;
   if (SHOW_UPDATE_BANNER) {
     var bannerDismissed = false;
     try { bannerDismissed = sessionStorage.getItem("bannerDismissed") === "1"; } catch (e) {}
